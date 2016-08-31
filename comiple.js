@@ -1,4 +1,6 @@
 // https://bitbucket.org/litmis/poormanscompilerpgfrompase/src/357bf4f60bc5c878ec50121b0963292f8dfd1ed6/compile.js?at=master&fileviewer=file-view-default
+// https://www.ibm.com/developerworks/community/wikis/home?lang=en#!/wiki/IBM%20i%20Technology%20Updates/page/Toolkit%20for%20i%20APIs
+
 
 const readline = require('readline')
 const fs = require('fs')
