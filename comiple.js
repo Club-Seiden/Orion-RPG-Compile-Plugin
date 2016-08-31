@@ -5,7 +5,7 @@
 const readline = require('readline')
 const fs = require('fs')
 var xt = require('/QOpenSys/QIBM/ProdData/Node/os400/xstoolkit/lib/itoolkit')
-var conn = new xt.iConn("*LOCAL")
+var conn = new xt.iConn("*LOCAL", "USER", "PASSWORD") // Need an option to have a user set these fields
 
 const compile_file = process.argv[2] || './compile'
 const rl = readline.createInterface({
